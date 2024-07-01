@@ -11,7 +11,7 @@ h1 {
 }
 
 main {
-    background-color: aqua;
+    background-color: rgb(142, 202, 255);
     display: flex;
     flex-direction: column;
 }
@@ -62,7 +62,7 @@ h3 {
 }
 
 p {
-    font-size: 25px;
+    font-size: 28px;
     text-indent: 10px;
     
 
