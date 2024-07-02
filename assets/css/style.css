@@ -8,6 +8,7 @@ h1 {
     font-size: 4em;
     margin-top: 0px;
     margin-bottom: 0px;
+    flex-wrap: wrap;
 }
 
 main {
@@ -45,10 +46,10 @@ section {
     display:flex;
 }
 
-.selfie {
+#selfie {
+    flex-wrap: wrap;
     background-color: rgb(87, 25, 175);
     border-color: rgb(87, 25, 175);
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -79,15 +80,15 @@ p {
     width: 280px; 
 }
 
-#port {
+#work {
     flex-wrap: wrap;
     background-color: rgb(87, 25, 175);
     color: rgb(200, 6, 200);
     font-size: 2.5rem;
-    margin-right: auto
-    padding-top: 20px;
+    margin-right: auto;
+    padding-top:  20px;
     padding-bottom: 20px;
-    text-indent: 60px;
+    text-indent: 85px;
     width: 292px;
 }
 
@@ -96,10 +97,12 @@ p {
     background-color: rgb(87, 25, 175);
     color: rgb(200, 6, 200);
     font-size: 2.5rem;
-    margin-right: 1100px;
+    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-indent: 90px;
+    text-indent: 85px;
+    width: 280px;
+    
 }
 
 #contact {
@@ -107,10 +110,11 @@ p {
     background-color: rgb(87, 25, 175);
     color: rgb(200, 6, 200);
     font-size: 2.5rem;
-    margin-right: 1100px;
+    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     text-indent: 35px;
+    width: 280px;
 }
 
 ul {
@@ -130,4 +134,16 @@ header {
 
 img {
     justify-content: center;
+}
+
+#email {
+    font-size: xx-large;
+}
+
+#phone {
+    font-size: xx-large;
+}
+
+#github {
+    
 }
